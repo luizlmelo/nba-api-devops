@@ -29,4 +29,4 @@ jobs:
       
     - name: Deploy application
       run: |
-        python app.py
+        docker-compose up -d
